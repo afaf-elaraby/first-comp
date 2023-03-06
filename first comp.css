@@ -1,0 +1,424 @@
+*{
+ padding: 0%;
+ margin: 0%;
+scroll-behavior: smooth;
+box-sizing: border-box;
+}
+body{
+overflow-x: hidden;
+
+}
+
+
+header .navtop{
+display: flex;
+justify-content: space-between;
+height: 70px;
+width: 100%;
+font-weight: 10;
+color: blue;
+position: sticky;
+position: -webkit-sticky;
+background-color: rgb(229, 242, 249);
+z-index: 3;
+
+}
+.home1{
+border-bottom: 3px solid rgb(181, 139, 219);
+}
+.home{
+display:inline-block;
+justify-content: space-between;
+padding: 20px 9px;
+font-size: 18px;
+margin: 4px 7px;
+color: blue;
+
+ }
+        
+
+ .home a{
+text-decoration: none;
+}
+/* nav left */
+.nav-left  {
+list-style-type: none;
+display:flex;
+align-items:center
+   
+}
+
+/* nav right */
+.nav-right button{
+    padding: 8px 10px; 
+   font-size: 17px;
+   margin: 10px 0px;
+   border-radius: 15px;
+   width: 100px;
+   border: none;
+   color: rgba(0, 0, 255, 0.463);
+   border-radius: 20px
+}
+.login{
+background-color: white;
+    
+}
+.nav-right{
+ margin:14px  33px;
+height: 90px;   
+position: relative;
+}
+ 
+.nav-right img{
+    position: absolute;
+    right: -11px;
+    top: 1px;
+    padding: 15px 10px;
+    margin: -5px;
+    width: 130px;
+    z-index: -1;
+    
+}
+            
+ /* background */
+body.backgroung{
+position:relative;
+    
+}
+    
+.waves{
+position: absolute;
+bottom:20px;
+left: 0;
+width: 1050px;
+} 
+         
+ /* section1 */
+
+ .section1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 20px 650px;
+    position:absolute;
+    bottom: 1px;
+    right: -140px;
+    padding: 20px 120px;
+    flex-wrap: wrap;
+    
+}
+section .head1 h1{
+font-size: 50px;
+font-weight:9;
+color:grey;
+width: 600px;
+position: absolute;
+bottom: 310px;
+left: -230px;
+}
+                
+section .head1 h1 span{
+color: rgb(155, 95, 211);
+}
+section .head1 p{
+font-size: 17px;
+font-weight: 5px;
+color:rgb(89, 89, 184);
+width:370px ;
+position: absolute;
+bottom: 250px;
+left: -210px;
+
+}
+    
+.section1 .heart1{
+margin: 44px 70px;
+padding: 0px -190px;
+
+}
+    
+.hearttt{
+position: absolute;
+bottom: -10px;
+left: 260px;
+    
+}
+.redman{
+margin: 25px 0px;
+padding: 1px 10px;
+position: absolute;
+bottom: 190px;
+left: 470px;
+    
+}
+       
+.cloud{
+margin: 1px 10px;
+padding: 1px 10px;
+position: absolute;
+bottom: 80px;
+left: 380px;
+    
+}
+    
+/* section2  */
+
+/* deliverybick */
+.section2 .deliverybick{
+margin: -10px 120px;
+font-family: sans-serif;
+}
+.section2 .deliverybick h4{
+margin: 11px 11px;
+font-size: 16px;
+font-weight: 55;
+color: rgb(86, 83, 83);
+}
+.section2 .deliverybick p{
+font-size: 13px;
+font-weight:11 ;
+color: rgba(37, 37, 41, 0.568);
+margin: 2px -21px;
+
+}
+/* kudzoka */
+.kudzoka{
+position: absolute;
+bottom: -650px;
+left: 80px;
+    
+}
+.section2 .whychose{ 
+position: absolute;
+bottom: 80px;
+left: 80px;
+font-family: sans-serif;
+font-weight: 1;
+color: white;
+    
+}
+.section2 .whychose h1{
+font-weight: 1;
+font-size: 30px;
+}
+.section2 .whychose p{
+font-size: 12px;
+}
+ /* time */
+.section2 .time{
+text-align: center;
+    
+}
+.timeh4{
+font-family: sans-serif;
+font-weight: 777;
+color: rgb(104, 104, 112);
+}
+.timep{
+color: rgb(131, 131, 143);
+font-family: sans-serif;
+font-size: 16px;
+}
+ /* Discounts */
+.Discounts{
+text-align: end;
+margin: -55px 70px;
+width: 1100px;
+}
+.Discountsh4{
+margin-right: 40px;
+font-family: sans-serif;
+font-weight: 355;
+color:  rgb(104, 104, 112);
+}
+.Discountsp{
+margin-right: -40px;
+font-family: sans-serif;
+font-weight: 355;
+color:  rgb(104, 104, 112);
+font-size: 13px;
+}
+.section2{
+width: 1200px;
+height: 200px;
+margin-top: 90px;
+}
+.img-section2{
+ position: absolute;
+ left:140px;
+top: 720px; 
+width: 1000px; 
+}                 
+/* section3  */
+.section3 .box{
+margin: 70px 70px;
+    
+ }
+.section3 .fly{
+position: absolute;
+left: 450px;
+bottom: -1100px;
+    }  
+.fa-chevron-left{
+ position: absolute;
+left: -30px;
+bottom: 70px;
+    }
+.fa-chevron-right{
+position: absolute;
+right: -60px;
+bottom: 70px;
+    
+}
+    
+    
+.flyh2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    margin: 40px;
+    color:  rgb(82, 82, 88);
+    }
+.flyp{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 2px 1px;
+    color:  rgb(104, 104, 112);
+    }
+.fly-words{
+    position: absolute;
+    bottom: -82px;
+    left: 40px;
+    
+    }
+    
+.section3 .man{
+position: absolute;
+left: 1000px;
+top: 1450px;
+}
+                         
+/* footer */
+
+/* background */
+.footer{
+background-image: url("Group 1131.png ");
+width: 113%;
+height: 528px;
+background-repeat:no-repeat ;
+background-size: cover;
+margin: 0px -50px;
+}
+/* button */
+  
+.button{
+position: absolute;
+left: 50px;
+top: 2210px;
+border-radius: 10px;
+background-color: white;
+width: 220px;
+  
+}
+  .button1{
+  position: absolute;
+  left: 15px;
+  bottom: 40px;
+  border-radius: 10px;
+  width: 140px;
+  height: 50px;
+  font-size: 11px;   
+  padding-left: 20px;
+  border: none;
+  
+  }
+  .button1 .img1{
+  position: absolute;
+  left: 9px;
+  bottom: 13px;
+  font-size: 1px;
+  
+  }
+  
+  .button2{
+    position: absolute;
+    left: 180px;
+    bottom: 40px;
+    border-radius: 10px;
+    width: 140px;
+    height: 50px;
+    font-size: 11px;   
+    padding-left: 22px;
+    padding-top: 6px;
+    border: none;
+    
+    }
+     .button2 .img2{
+    position: absolute;
+    left: 11px;
+    bottom: 12px;
+    font-size: 1px;
+    
+    } 
+  
+  
+  .social .socialimg1{
+  position: absolute;
+  left: 80px;
+  top: 2210px;
+  
+  }
+  .social .socialimg2{
+    position: absolute;
+    left: 110px;
+    top: 2210px;
+  
+    }
+    .social .socialimg3{
+      position: absolute;
+      left: 140px;
+      top: 2210px;
+  
+  }
+  
+  .nav-end{
+  display: flex;
+  justify-content: space-between;
+  width: 260px;
+  position: absolute;
+  left: 75px;
+  top: 2260px;
+  color: white;
+  
+}
+  .nav-end a{
+  text-decoration: none;
+    color: white;
+  }
+  /*  last div*/
+  .last-img{
+  position: absolute;
+  right: 60px;
+  top: 1897px;
+  
+  } 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
